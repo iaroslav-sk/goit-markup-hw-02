@@ -11,7 +11,7 @@
   --titule-text-color: #212121;
   --accent-color: #2196f3;
   --white-text-color: #ffffff;
-  --primary-bg-color: #e5e5e5;
+  --primary-bg-color: #ffffff;
   --button-bg-color: #f5f4fa;
   --mail-footer-color-text: rgba(255, 255, 255, 0.6);
   --background-dark-color: #2f303a;
@@ -35,13 +35,19 @@ body {
   color: var(--accent-color);
   /* text */
   font-family: Raleway, cursive;
-  font-weight: 700;
+  font-style: normal;
+  /* в макете стоит 700 !!! */
+  font-weight: 800;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .logo .studio {
   color: var(--titule-text-color);
+}
+.logo .studio-footer {
+  color: var(--white-text-color);
 }
 /* ================navigate=========================== */
 
