@@ -1,2 +1,2 @@
-# goit-markup-hw
-Website
+https://iaroslav-sk.github.io/goit-markup-hw-02/
+
