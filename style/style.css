@@ -166,9 +166,15 @@ body {
   /* color */
   color: var(--mail-footer-color-text);
   /* text */
+  text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+}
+.mail-footer:hover,
+.mail-footer:active,
+.mail-footer:focus {
+  color: var(--accent-color);
 }
 /* ---------------------------------------- */
 /* -------------portfolio ------------------*/
